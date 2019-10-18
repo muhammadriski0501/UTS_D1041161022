@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UTS</string>
+    <string name="SyntaxS"><![CDATA[<?xml version=1.0 encoding=utf-8?> <LinearLayout xmlns:android=http://schemas.android.com/apk/res/android android:layout_width=match_parent android:layout_height=match_parent android:orientation=vertical > <TextView android:id=@+id/text android:layout_width=wrap_content android:layout_height=wrap_content android:text=I am a TextView /> </LinearLayout>]]></string>
+    <string name="Syntax_Layout">a</string>
+    <string name="Syntax_layout1"><![CDATA[<?xml version=1.0 encoding=utf-8?> <LinearLayout xmlns:android=http://schemas.android.com/apk/res/android android:layout_width=match_parent android:layout_height=match_parent android:paddingLeft=16dp android:paddingRight=16dp android:orientation=vertical > <EditText android:layout_width=match_parent android:layout_height=wrap_content android:hint=@string/to /> <EditText android:layout_width=match_parent android:layout_height=0dp android:layout_weight=1 android:gravity=top android:hint=@string/message /> <Button android:layout_width=100dp android:layout_height=wrap_content android:layout_gravity=right android:text=@string/send /> </LinearLayout>]]></string>
+    <string name="title_activity_k_fragment">k_fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="syntax_fragment"><![CDATA[<?xml version=1.0 encoding=utf-8?> <LinearLayout xmlns:android=http://schemas.android.com/apk/res/android android:layout_width=match_parent android:layout_height=match_parent android:orientation=vertical > <fragment android:name=com.example.android.FooFragment android:id=@+id/fooFragment android:layout_width=match_parent android:layout_height=match_parent /> </LinearLayout>]]></string>
+</resources>
